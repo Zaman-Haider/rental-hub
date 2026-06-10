@@ -125,7 +125,7 @@ function RootComponent() {
           <AppSidebar />
           <SidebarInset>
             <header className="sticky top-0 z-10 flex h-14 items-center gap-3 border-b bg-background/80 px-4 backdrop-blur">
-              <SidebarTrigger />
+              <SidebarTrigger className="h-10 w-10 border bg-background shadow-sm md:h-7 md:w-7 md:border-0 md:shadow-none [&_svg]:size-5 md:[&_svg]:size-4" />
               <div className="text-sm font-medium text-muted-foreground">Customer Portal</div>
               <div className="ml-auto flex items-center gap-3">
                 <span className="hidden text-xs text-muted-foreground sm:inline">Acme Drilling Co. — Account #44219</span>
